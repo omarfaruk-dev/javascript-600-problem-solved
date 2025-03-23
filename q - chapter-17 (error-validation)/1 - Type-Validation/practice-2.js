@@ -3,10 +3,10 @@
  */
 const getArray = (numbers) => {
     if (Array.isArray(numbers) == false) {
-        return 'Boss Please give me an Array'
+        return 'Please input an Array'
     }
     const lastIndex = numbers[numbers.length-1]
     return lastIndex
 }
-const array = getArray([20, 30, 50])
+const array = getArray([5, 3, 9, 15])
 console.log(array);
